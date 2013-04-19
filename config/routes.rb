@@ -1,10 +1,18 @@
 Wecity::Application.routes.draw do
   
+  resources :missionmakers
+
+
+  resources :missions
+
+
   root :to => 'pages#home'
   get 'address' => 'pages#address'
   get 'campaign' => 'pages#campaign'
   get 'vault' => 'pages#vault'
   get 'about' => 'pages#about'
+  get 'tools' => 'pages#tool'
+  get 'mission' => 'pages#mission'
   get 'bargraph' => 'pages#bargraph'
   get 'scatterplot' => 'pages#scatterplot'
 

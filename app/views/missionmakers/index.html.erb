@@ -1,0 +1,31 @@
+<h1>Listing missionmakers</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Description</th>
+    <th>Tools</th>
+    <th>Element</th>
+    <th>Participation</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @missionmakers.each do |missionmaker| %>
+  <tr>
+    <td><%= missionmaker.name %></td>
+    <td><%= missionmaker.description %></td>
+    <td><%= missionmaker.tools %></td>
+    <td><%= missionmaker.element %></td>
+    <td><%= missionmaker.participation %></td>
+    <td><%= link_to 'Show', missionmaker %></td>
+    <td><%= link_to 'Edit', edit_missionmaker_path(missionmaker) %></td>
+    <td><%= link_to 'Destroy', missionmaker, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Missionmaker', new_missionmaker_path %>

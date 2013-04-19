@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @missionmaker.name %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @missionmaker.description %>
+</p>
+
+<p>
+  <b>Tools:</b>
+  <%= @missionmaker.tools %>
+</p>
+
+<p>
+  <b>Element:</b>
+  <%= @missionmaker.element %>
+</p>
+
+<p>
+  <b>Participation:</b>
+  <%= @missionmaker.participation %>
+</p>
+
+
+<%= link_to 'Edit', edit_missionmaker_path(@missionmaker) %> |
+<%= link_to 'Back', missionmakers_path %>
