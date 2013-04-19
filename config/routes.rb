@@ -4,6 +4,9 @@ Wecity::Application.routes.draw do
   get 'address' => 'pages#address'
   get 'campaign' => 'pages#campaign'
   get 'vault' => 'pages#vault'
+  get 'about' => 'pages#about'
+  get 'bargraph' => 'pages#bargraph'
+  get 'scatterplot' => 'pages#scatterplot'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
