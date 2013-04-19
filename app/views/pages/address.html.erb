@@ -1,0 +1,40 @@
+<style type="text/css">
+#map { height: 600px; }
+</style>
+<script type="text/javascript">
+    var map = L.map('map').setView([51.505, -0.09], 13);
+    L.tileLayer('http://{s}.tile.cloudmade.com/0bb505451a034898a1a727b81e03b015/997/256/{z}/{x}/{y}.png', {
+        attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://cloudmade.com">CloudMade</a>',
+        maxZoom: 18
+    }).addTo(map);
+    var marker = L.marker([51.5, -0.09]).addTo(map);
+    var circle = L.circle([51.508, -0.11], 500, {
+        color: 'red',
+        fillColor: '#f03',
+        fillOpacity: 0.5
+    }).addTo(map);
+    var polygon = L.polygon([
+        [51.509, -0.08],
+        [51.503, -0.06],
+        [51.51, -0.047]
+    ]).addTo(map);
+    marker.bindPopup("<b>Hello world!</b><br>I am a popup.").openPopup();
+    circle.bindPopup("I am a circle.");
+    polygon.bindPopup("I am a polygon.");
+</script>
+<div class="large-4 column">
+  <h1>Select your transit route:</h1>
+  <div class="row">
+    <div class="large-6 columns">
+    <label>Input Label</label>
+    <input type="text" placeholder="large-6.columns">
+    </div>
+    <div class="large-6 columns">
+    <label>Input Label</label>
+    <input type="text" placeholder="large-6.columns">
+    </div>
+  </div>
+</div>
+<div class="large-8 column">
+  <div id="map"></div>
+</div>
