@@ -28,6 +28,8 @@ end
 
 gem 'jquery-rails'
 
+gem 'zurb-foundation'
+
 gem 'httparty'
 
 gem 'devise'
