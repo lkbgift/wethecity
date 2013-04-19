@@ -1,8 +1,12 @@
 <div class="large-4 column">
-  <img src="http://fakeimg.pl/350x250/" alt="">
+  <%= image_tag "mission.png" %>
 </div>
 <div class="large-8 column">
   <div class="panel">
+    <h3 class="subheader">
+      Avian tracker
+    </h3>
+    <h4 class="subheader">Mission runs from 4/15/13-5/15/13</h4>
     <p>
       Etiam ornare dictum diam eu pharetra. Sed ultrices ornare dictum. Praesent mi dui, porta vel facilisis eget, vestibulum eu magna. Ut a orci quis lectus mollis blandit non non eros. Sed ultricies mollis dignissim. In massa velit, auctor eget laoreet id, tristique a arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
     </p>
@@ -23,7 +27,6 @@
       <div class="progress large-12 secondary round"><span class="meter" style="width: 80%"></span></div>
     </div>
     <div class="large-6 column">
-      <p>Mission runs from 4/15/13-5/15/13</p>
       <p for="">
         Requirements
       </p>
@@ -36,7 +39,7 @@
     </div>
   </div>
   <div class="row text-center">
-    <a href="" class="button success small expand">Start Mission</a>
+    <%= link_to "Start Mission", "vault", :class=>"button success small expand" %>
   </div>
   <a class="close-reveal-modal">&#215;</a>
 </div>

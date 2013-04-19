@@ -3,6 +3,7 @@ Wecity::Application.routes.draw do
   root :to => 'pages#home'
   get 'address' => 'pages#address'
   get 'campaign' => 'pages#campaign'
+  get 'vault' => 'pages#vault'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
