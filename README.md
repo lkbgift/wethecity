@@ -18,4 +18,4 @@ Nathan Storey - [@npstorey](http://twitter.com/npstorey) - Urban Planner/All Thi
 
 Joel Natividad - [@jqnatividad](http://twitter.com/jqnatividad) - Data Wrangler, Prod Design and all-around Civic Hacker
 
-Joshua Kauffman - [@joshuakauffman](https://twitter.com/joshuakauffman) - Concept distiller
+Joshua Kauffman - [@joshuakauffman](https://twitter.com/joshuakauffman) - Concept Distiller
