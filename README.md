@@ -1,14 +1,14 @@
-== CityMission
+# CityMission
 
 "Know yourself. Know the City."
 
 A platform for collecting and storing citizen generated open data. 
 
-== History
+## History
 
 This project came to be out of a NYU GovLab Experiement.
 
-== Contributors
+## Contributors
 
 Pablo Aguero - [@RedPabs](https://twitter.com/RedPabs) - UX/UI Design Ninja
 
