@@ -1,3 +1,3 @@
 class Missionmaker < ActiveRecord::Base
-  attr_accessible :description, :element, :name, :participation, :tools
+  attr_accessible :description, :sponsor, :element, :name, :participation, :tools
 end
